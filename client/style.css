@@ -1,0 +1,181 @@
+
+
+@media only screen and (min-width: 1024px) {
+    body {
+      background-color: lightgreen;
+    }
+    #app-view{
+        width: 80%;
+        margin: 0 auto;
+       
+      
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      background-color: lightblue;
+    }
+    #app-view{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+}
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: lightsalmon;
+    }
+    #app-view{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+
+
+#app-menu{
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 0%;
+}
+
+.content{
+    display: flexbox;
+    flex-direction: row;
+}
+.content > h4{
+    background-color: aliceblue;
+    font-size: x-large;
+}
+/* .menu-item{
+    flex: 1;
+    border: 2px solid blueviolet;
+    margin: 10px;
+}
+.menu-item:first-child{
+   margin-right: 20px;
+} */
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    list-style-type: none;
+    text-align: center;
+    line-height: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 30px;
+    flex: 1;
+}
+.menu-item > a{
+    
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    /* l */
+}
+.menu-item > a > img{
+    align-items: center;
+}
+
+.menu-item > a > p{
+  align-items: center;
+}
+
+.menu-pic{
+    align-items: center;
+    height: 36px;
+    width: 36px;
+}
+
+.room-list{
+    margin-top: 0%;
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0%;
+    
+}
+.room-list >li{
+    margin-top: 1px;
+    list-style-type: none;
+    background-color: lightpink;
+    padding: 5px;
+    
+}
+
+.room-list >li:hover{
+    margin-top: 1px;
+    list-style-type: none;
+    background-color:plum;
+    padding: 5px;
+}
+
+.room-list-pic{
+    margin: 10px;
+    height: 24px;
+    width: 24px;
+}
+
+.page-control{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+}
+.page-control > textarea{
+    resize: none;
+}
+.room-name{
+    font-size: large;
+    margin: 0%;
+}
+.message-list{
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: auto;
+    max-height: 350px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    background-color: slateblue;
+}
+
+.my-message{
+    position: absolute;
+    right: 0%;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#app-menu :hover a{
+    color: yellow;
+}
+
+/* #app-menu a:hover{
+    color: yellow;
+} */
+.menu-item:hover{
+    background-color: red;
+}
+
